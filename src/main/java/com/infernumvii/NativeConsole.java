@@ -6,7 +6,6 @@ import java.nio.file.Path;
 import java.nio.file.StandardCopyOption;
 
 public class NativeConsole {
-    private static final boolean IS_WINDOWS = System.getProperty("os.name").startsWith("Windows");
     static {
         if (!System.getProperty("os.name").startsWith("Windows")) {
             throw new UnsupportedOperationException("Windows only");

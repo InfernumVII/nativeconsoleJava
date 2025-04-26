@@ -1,5 +1,7 @@
-[CppSide](https://github.com/InfernumVII/nativeconsoleJava-CppSide-/blob/master/Dll1/NativeConsole.cpp)
-# Using
+# Why?
+This code was created, cuz i didn't find way in Java to read chars from console without pressing Enter on Windows
+## [CppSide](https://github.com/InfernumVII/nativeconsoleJava-CppSide-/blob/master/Dll1/NativeConsole.cpp)
+## Using
 
 ```java
 import com.infernumvii.NativeConsole;
